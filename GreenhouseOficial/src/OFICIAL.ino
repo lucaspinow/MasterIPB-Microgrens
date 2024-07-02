@@ -5,7 +5,7 @@
 
   IPB - INSTITUTO POLITÉCNICO DE BRAGANÇA
   UTFPR - UNIVERSIDADE FEDERAL DO PARANÁ 
-  AUTOR: LUCAS SANTOS PINOW - 31/10/2023 - XX/XX/2024
+  AUTOR: LUCAS SANTOS PINOW - 31/10/2023 - 20/06/2024
 */
 
 /* COMENTÁRIOS GERAIS */
@@ -29,17 +29,12 @@ const char* mqttServer = "test.mosquitto.org"; //Servidor MQTT
 //const char* mqttServer = "192.168.137.1"; //Servidor MQTT
 //const char* mqttServer = "192.168.1.73"; //Servidor MQTT
 const int mqttPort = 1883; //Porta 1883 - sem criptografia / com autenticação
-const char* mqttUser = "LUCAS";
-const char* mqttPassword = "123";
+const char* mqttUser = "";
+const char* mqttPassword = "";
 
-//const char* wifi_ssid = "MEO-6B0B70";      // Nome da rede (APARTAMENTO)
-//const char* wifi_password = "59575c842c";  // Senha da rede (APARTAMENTO)
-//const char* wifi_ssid = "G100-PINOW";        // Nome da rede (MÓVEL)
-//const char* wifi_password = "314159265";    // Senha da rede (MÓVEL)
-//const char* wifi_ssid = "wifi_laptop";        // Nome da rede (NOTEBOOK)
-//const char* wifi_password = "314159265";    // Senha da rede (NOTEBOOK)
-const char* wifi_ssid = "agents";        // Nome da rede (agents)
-const char* wifi_password = "QgC9O8VucAByqvVu5Rruv1zdpqM66cd23KG4ElV7vZiJND580bzYvaHqz5k07G2";    // Senha da rede (agents)
+
+const char* wifi_ssid = "";        // Nome da rede
+const char* wifi_password = "";    // Senha da rede 
  
 /* # # DEFINES # # */
 
